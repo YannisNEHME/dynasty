@@ -12,6 +12,7 @@ public class Dynastie {
 		this.personnages = new ArrayList<Personnage>();
 	}
 
+	
 	public void ajouter(Personnage personnage) {
 		personnages.add(personnage);
 		personnage.setDynastie(this);

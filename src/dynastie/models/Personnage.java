@@ -3,6 +3,7 @@ package dynastie.models;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class Personnage {
 	protected Dynastie dynastie;
 	protected List<Personnage> enfants;
